@@ -73,11 +73,6 @@ public class Rectarea {
 		System.out.println(area);
 	}//firstRectangle() ends here
 
-	public void printNumOfRectangles(){
-		System.out.println(numOfRectangles);
-	}//getNumOfRectangles() ends here
-	//**********************************************
-
 	public void printLength(){
 		System.out.println(length);
 	}//printRectLength() end here
@@ -92,6 +87,5 @@ public class Rectarea {
 		System.out.println(length + " " + width);
 	}//printRectDimensions() end here
 	//**********************************************
-
 	 
 }//Rectarea ends here.
