@@ -47,12 +47,6 @@ public class Rectarea {
 	}//checkIfDouble() ends here.
 	//**********************************************
 
-	public int returnNumOfRectangles(){
-		return numOfRectangles;
-		
-	}//returnNumOfRectangles() ends here
-	//**********************************************
-
 	public double getLengthDimension(){
 		return width;
 	}//getLengthDimension() ends here
