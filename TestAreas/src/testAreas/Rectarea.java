@@ -48,22 +48,22 @@ public class Rectarea {
 	//**********************************************
 
 	public double getLengthDimension(){
-		return width;
+		return length;
 	}//getLengthDimension() ends here
 	//**********************************************
 
 	public double getWidthDimension(){
-		return length;
+		return width;
 	}//getWidthDimension()
 	//**********************************************
 
 	public double calculateArea(){
-		return length * width;
+		return Math.round((length * width)*100.0)/100.0;
 	}//calculateAread ends here
 	//**********************************************
 
 	public void printArea(){
-		double area = length * width;
+		double area = Math.round((length * width)*100.0)/100.0;
 		System.out.println(area);
 	}//firstRectangle() ends here
 
