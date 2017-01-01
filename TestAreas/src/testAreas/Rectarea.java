@@ -1,5 +1,7 @@
 package testAreas;
 
+import java.text.DecimalFormat;
+
 public class Rectarea {
 	//using static class member to see how they work
 		//this variable keeps count of number of rectangles objects declared
