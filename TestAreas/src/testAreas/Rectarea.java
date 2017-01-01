@@ -54,12 +54,12 @@ public class Rectarea {
 	//**********************************************
 
 	public double getLengthDimension(){
-		return length;
+		return width;
 	}//getLengthDimension() ends here
 	//**********************************************
 
 	public double getWidthDimension(){
-		return width;
+		return length;
 	}//getWidthDimension()
 	//**********************************************
 
